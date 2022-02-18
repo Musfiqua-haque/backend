@@ -31,7 +31,7 @@
   width: 100%;
   min-height: 100vh;
   background-position: center;
-  opacity: 0.8;
+  
   background-size: cover;
 }
 
@@ -51,7 +51,7 @@
   min-height: 350px;
   float: left;
   border: 2px solid rgb(67, 168, 177);
-  opacity: 0.7;
+  /* opacity: 0.7; */
   /* background-image: url("images/ship.jpg");
     background-position: center; */
 }
@@ -59,6 +59,8 @@
 #ticket {
   font-size: 20px;
   margin-left: 20px;
+  color: white;
+  
 }
 select {
   width: 150px;
@@ -69,25 +71,31 @@ select {
   font-size: 15px;
   font-family: "Times New Roman", Times, serif;
 }
+.form{
+  background-color: rgba(0,0,0,0.5) !important;
+}
 
 .ticket-left {
   float: leftt;
+  color: white;
 }
 
 .ticket-right {
   float: right;
   margin-top: -15%;
   margin-right: 4%;
+  color: white;
 }
 .ticket-last {
   float: right;
   margin-right: 4%;
+  color: white;
 }
 
 .pass-info {
   border: 2px solid black;
   width: 300px;
-  height: 250px;
+  height: 230px;
   margin-left: 20px;
   text-align: center;
   display: none;
@@ -112,7 +120,7 @@ select {
 
 .vehicle-info {
   border: 2px solid black;
-  width: 300px;
+  width: 330px;
   height: 140px;
   margin-top: 15px;
   margin-left: 20px;
@@ -142,9 +150,12 @@ select {
 .footer input {
   margin-top: 10px;
   width: 130px;
-  height: 20px;
-  border-radius: 10px;
+  height: 25px;
+  border-radius: 5px;
   text-align: center;
+}
+.footer h3{
+  color: white;
 }
 
 .btn {
@@ -177,11 +188,12 @@ select {
 .left-weight {
   width: 400px;
   height: 460px;
-  background-color: rgb(103, 179, 143);
+  background-color: rgba(0,0,0,0.5) !important;
   float: right;
   margin-right: 60px;
   margin-top: 30px;
-  opacity: 0.8;
+  /* opacity: 0.8; */
+  color: white;
 }
 
 .left-weight h3 {
